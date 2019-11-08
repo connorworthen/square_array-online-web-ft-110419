@@ -1,4 +1,4 @@
   def square_array(array)
     array.each { |i,arr| arr << i ** 2 }
-    [].empty?
+    ["1", "2", "3"].empty?
     end
