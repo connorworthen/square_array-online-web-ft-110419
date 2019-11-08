@@ -1,3 +1,4 @@
 def square_array(array)
-  # your code here
+  [].tap do |a|
+    array.collect { |n| a << n ** n }
 end
