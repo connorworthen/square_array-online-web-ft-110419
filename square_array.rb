@@ -1,4 +1,4 @@
 def square_array(array)
-  [].tap do |a|
+  sqaure_array = [].tap do |a|
     array.collect { |n| a << n ** n }
 end
