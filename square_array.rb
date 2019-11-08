@@ -1,6 +1,5 @@
   def square_array(array)
-    [1, 2, 3].each do |n|
-      array = "Square number is: #{n}"
+    square_array.each do |num|
+      puts "#{num ** 2}"
     end
-      puts num ** 2
-  end
+      
