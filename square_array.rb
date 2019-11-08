@@ -1,5 +1,5 @@
   def square_array(array)
-    inject.new do |arr|
+    Enumerator.new do |arr|
       array.each([]) { |i,arr| arr << i ** 2 }
     end
     .take(array.length)
