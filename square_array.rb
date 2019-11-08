@@ -1,11 +1,14 @@
   def square_array(array)
-    new_array = []
-    array.each do |num|
-      if (Math.sqrt(num) % 1) == 0
-      new_arr << Math.sqrt(num).to_i
-    else
-      new_arr << (num * num)
+    array.each { |i,arr| arr << i ** 2 }
+  end
+    
+  def sqaure_array(array)
+    array.map do |num|
+      if (num.square?)
+        num
+      else
+        num ** 2
+      end
     end
   end
-  puts new_arr
-end
+      
