@@ -3,4 +3,3 @@
     sqaure_array.each do |num|
       puts "num ** num"
     end
-      
