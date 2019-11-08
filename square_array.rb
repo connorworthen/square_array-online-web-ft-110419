@@ -6,5 +6,6 @@
     array = [1, 2, 3, 4, 5]
     array.each do |num|
       puts num ** 2
-      sqaure_array << num**2
     end
+      sqaure_array << num**2
+  end
