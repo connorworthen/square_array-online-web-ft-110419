@@ -1,7 +1,7 @@
   def sqaure_array(array)
-    array = [1, 2, 3, 4, 5]
+    arr = [1, 2, 3, 4, 5]
 
 
-    array.each do |num|
+    array.each do |arr|
       puts num ** 2
     end
