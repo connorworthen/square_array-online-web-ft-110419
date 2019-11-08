@@ -1,8 +1,5 @@
-  def square_array(array)
-    array.each { |i,arr| arr << i ** 2 }
-  end
-
-  def sqaure_array(array)
+    def sqaure_array(array)
+    results_array = []
     array.each do |num|
       puts num ** 2
       sqaure_array << num ** 2
