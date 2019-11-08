@@ -3,6 +3,7 @@
   end
 
   def sqaure_array(array)
+    array = ["1", "2", "3"]
     array.map do |num|
       if (num.square?)
         num
